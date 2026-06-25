@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You're Offline | Cravins Ice Cream</title>
+<meta name="theme-color" content="#2E1A12">
+<style>
+  :root{
+    --cream:#FBF4E9; --cacao:#2E1A12; --gold:#D4A24C; --praline:#6B3E26;
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: var(--cream);
+    color: var(--cacao);
+    font-family: 'Inter', system-ui, sans-serif;
+    text-align:center;
+    padding: 2rem;
+  }
+  .wrap{ max-width: 420px; }
+  .seal{ color: var(--cacao); margin-bottom: 1.5rem; }
+  h1{ font-family: Georgia, serif; font-size: 1.8rem; margin: 0 0 .6em; }
+  p{ color: var(--praline); margin-bottom: 1.8em; line-height:1.6; }
+  a{
+    display:inline-block;
+    background: var(--cacao);
+    color: var(--cream);
+    text-decoration:none;
+    padding: .9em 2em;
+    border-radius: 999px;
+    font-weight:600;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <svg class="seal" viewBox="0 0 64 64" width="56" height="56"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="32" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="1"/><text x="32" y="41" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="currentColor">C</text></svg>
+    <h1>You're currently offline</h1>
+    <p>It looks like there's no internet connection right now. Please check your connection and try again — your cravings will still be here.</p>
+    <a href="/index.html">Try Again</a>
+  </div>
+</body>
+</html>
